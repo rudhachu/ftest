@@ -1,23 +1,35 @@
 {
- "name": "rudhra-bot",
- "version": "1.0.0",
- "description": "Simple WhatsApp Bot",
- "main": "index.js",
- "directories": {
-  "lib": "lib"
- },
- "author": "princerudh",
- "scripts": {
-  "start": "pm2 start index.js --deep-monitoring --attach --name rudhra",
-  "restart": "pm2 restart rudhra",
-  "stop": "pm2 stop rudhra"
- },
+  "name": "rudhra-bot",
+  "version": "1.0.0",
+  "description": "Rudhra WhatsApp Bot.",
+  "main": "./index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "pm2 start index.js --deep-monitoring --attach --name rudhra",
+    "restart": "pm2 restart rudhra",
+    "stop": "pm2 stop rudhra"
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rudhachu/rudh.git"
+  },
+  "keywords": [
+    "bot",
+    "rudhra",
+    "whatsapp"
+  ],
+  "author": "princerudh",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/rudhachu/rudh/issues"
+  },
  "devDependencies": {
   "@eslint/js": "^9.4.0",
   "eslint": "^9.4.0",
   "globals": "^15.4.0"
  },
- "dependencies": {
+  "dependencies": {
   "@adiwajshing/keyed-db": "^0.2.4",
   "axios": "^1.7.7",
   "baileys": "github:princerudh/Baileys",
