@@ -5,9 +5,7 @@
   "main": "./index.js",
   "type": "commonjs",
   "scripts": {
-    "start": "pm2 start index.js --deep-monitoring --attach --name rudhra",
-    "restart": "pm2 restart rudhra",
-    "stop": "pm2 stop rudhra"
+    "start": "pm2 start . --attach --name rudhra",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
