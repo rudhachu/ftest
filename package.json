@@ -22,11 +22,6 @@
   "bugs": {
     "url": "https://github.com/rudhachu/rudh/issues"
   },
- "devDependencies": {
-  "@eslint/js": "^9.4.0",
-  "eslint": "^9.4.0",
-  "globals": "^15.4.0"
- },
   "dependencies": {
   "@adiwajshing/keyed-db": "^0.2.4",
   "axios": "^1.7.7",
