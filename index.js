@@ -20,8 +20,7 @@ async function initialize() {
  try {
   await patch();
   await connectSession(config.SESSION_ID, "/lib/session");
-    console.log("Version:", require("./package.json").version);
-  }
+  console.log("Version:", require("./package.json").version);
 
   console.log("WhatsApp Bot Initializing...");
   await parseDir(path.join(__dirname, "/lib/database/"));
@@ -33,8 +32,8 @@ async function initialize() {
   return await connect();
  } catch (error) {
   console.error("Initialization error:", error);
-  return process.exit(1);
- 
+  process.exit(1);
+ }
 }
 
 async function startServer() {
