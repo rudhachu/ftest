@@ -23,9 +23,9 @@
     "url": "https://github.com/rudhachu/rudh/issues"
   },
   "dependencies": {
+  "@whiskeysockets/baileys": "github:princerudh/Baileys",
   "@adiwajshing/keyed-db": "^0.2.4",
   "axios": "^1.7.7",
-  "baileys": "github:princerudh/Baileys",
   "browser-id3-writer": "^4.4.0",
   "canvas": "2.11.2",
   "cheerio": "1.0.0",
