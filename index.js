@@ -34,7 +34,7 @@ async function initialize() {
  } catch (error) {
   console.error("Initialization error:", error);
   return process.exit(1);
- }
+ 
 }
 
 async function startServer() {
