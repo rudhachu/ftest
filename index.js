@@ -18,7 +18,6 @@ const parseDir = async directory => {
 
 async function initialize() {
  try {
-  await patch();
   await connectSession(config.SESSION_ID, "/lib/session");
   console.log("Version:", require("./package.json").version);
 
